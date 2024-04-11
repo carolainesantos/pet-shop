@@ -1,11 +1,27 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./CardAlbum";
+import { Card, Button } from "react-bootstrap";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+export default function CardAlbuns({ key, nome, responsavel, raça, imagem }) {
+  return (
+    <Card style={{ width: "22rem", margin: "10px" }}>
+      <Card.Img
+        variant="top"
+        src={imagem}
+        alt="Foto Animal"
+        style={{
+          maxHeight: "300px",
+        }}
+      />
+      <Card.Body>
+        <Card.Title>{nome}</Card.Title>
+        <Card.Text>
+          <p>{responsavel}</p>
+          <p>Album: {album}</p>
+          {raça}
+        </Card.Text>
+        <div style={{ textAlign: "center" }}>
+          <Button variant="dark">Vizualizar</Button>
+        </div>
+      </Card.Body>
+    </Card>
+  );
+}
