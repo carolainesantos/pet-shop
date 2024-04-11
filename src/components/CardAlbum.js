@@ -1,11 +1,34 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./CardAlbum";
+import { Card, Button } from "react-bootstrap";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+export default function CardAlbuns({
+  key,
+  nome,
+  imagem,
+  artista,
+  album,
+  descricao,
+}) {
+  return (
+    <Card style={{ width: "22rem", margin: "10px" }}>
+      <Card.Img
+        variant="top"
+        src={imagem}
+        alt="Capa da música"
+        style={{
+          maxHeight: "300px",
+        }}
+      />
+      <Card.Body>
+        <Card.Title>{nome}</Card.Title>
+        <Card.Text>
+          <p>{artista}</p>
+          <p>Album: {album}</p>
+          {descricao}
+        </Card.Text>
+        <div style={{ textAlign: "center" }}>
+          <Button variant="dark">Reproduzir</Button>
+        </div>
+      </Card.Body>
+    </Card>
+  );
+}
