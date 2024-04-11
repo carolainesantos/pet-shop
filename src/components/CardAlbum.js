@@ -1,19 +1,12 @@
 import { Card, Button } from "react-bootstrap";
 
-export default function CardAlbuns({
-  key,
-  nome,
-  imagem,
-  artista,
-  album,
-  descricao,
-}) {
+export default function CardAlbuns({ key, nome, responsavel, raça, imagem }) {
   return (
     <Card style={{ width: "22rem", margin: "10px" }}>
       <Card.Img
         variant="top"
         src={imagem}
-        alt="Capa da música"
+        alt="Foto Animal"
         style={{
           maxHeight: "300px",
         }}
@@ -21,12 +14,12 @@ export default function CardAlbuns({
       <Card.Body>
         <Card.Title>{nome}</Card.Title>
         <Card.Text>
-          <p>{artista}</p>
+          <p>{responsavel}</p>
           <p>Album: {album}</p>
-          {descricao}
+          {raça}
         </Card.Text>
         <div style={{ textAlign: "center" }}>
-          <Button variant="dark">Reproduzir</Button>
+          <Button variant="dark">Vizualizar</Button>
         </div>
       </Card.Body>
     </Card>
