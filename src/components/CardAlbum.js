@@ -6,7 +6,7 @@ export default function CardAlbuns({ key, nome, responsavel, raça, imagem }) {
       <Card.Img
         variant="top"
         src={imagem}
-        alt="Foto Animal"
+        alt="Foto do Pet"
         style={{
           maxHeight: "300px",
         }}
@@ -15,7 +15,7 @@ export default function CardAlbuns({ key, nome, responsavel, raça, imagem }) {
         <Card.Title>{nome}</Card.Title>
         <Card.Text>
           <p>{responsavel}</p>
-          <p>Album: {album}</p>
+          <p>Nome: {nome}</p>
           {raça}
         </Card.Text>
         <div style={{ textAlign: "center" }}>

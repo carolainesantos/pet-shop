@@ -39,10 +39,9 @@ export default function Album() {
           <CardAlbuns
             key={album.id}
             nome={album.nome}
-            artista={album.artista}
-            album={album.album}
+            responsavel={album.responsavel}
+            raça={album.raça}
             imagem={album.imagem}
-            descricao={album.descricao}
           />
         ))}
       </div>
