@@ -11,13 +11,12 @@ export default function Contato() {
           boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
         }}
       >
-        <h1>Queremos Ouvir você! 💜</h1>
+        <h1>Venha nos conhecer de pertinho! </h1>
         <p>
-          No Melodify, estamos comprometidos em fornecer a melhor experiência
-          musical possível, e sua opinião é fundamental para nos ajudar a
-          alcançar esse objetivo. Se você tiver dúvidas, comentários, sugestões
-          ou apenas quiser dizer olá, não hesite em entrar em contato conosco.
-          Nossa equipe de suporte está aqui para ajudar.
+          Siga-nos nas redes sociais: [Inserir links para redes sociais, se
+          aplicável] Horário de funcionamento: Segunda a sexta: [Inserirhorário
+          de funcionamento] Sábado: [Inserir horário de funcionamento] Domingo:
+          Fechado
         </p>
       </section>
 
@@ -32,9 +31,9 @@ export default function Contato() {
         }}
       >
         <h1>Fale com a gente</h1>
-        <p>Entre em contato conosco</p>
-        <p>📞(55) 47 99999-9999</p>
-        <p>✉️ melodify@gmail.com</p>
+        <p>Paxos Vet Clinic Endereço: [Inserir endereço físico aqui] </p>
+        <p> Telefone:[Inserir número de telefone aqui] </p>
+        <p> E-mail: [Inserir endereço de e-mail aqui] </p>
       </section>
     </>
   );
