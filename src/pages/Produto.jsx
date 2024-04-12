@@ -1,4 +1,4 @@
-import CardAlbuns from "../components/CardAlbuns";
+import CardAlbuns from "../components/CardAlbum";
 import jsonData from "../mocks/info.json";
 import React, { useEffect, useState } from "react";
 
