@@ -4,7 +4,7 @@ export default function Inicial() {
   return (
     <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
       <header style={{ textAlign: "center", marginBottom: "40px" }}>
-        <h1 style={{ margin: "0" }}>Melodify</h1>
+        <h1 style={{ margin: "0" }}>Pet Amigo</h1>
         <p
           style={{
             fontSize: "18px",
@@ -31,7 +31,7 @@ export default function Inicial() {
           style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
         >
           <br />
-          <h2>Sugestão </h2>
+          <h2>Sugestão</h2>
         </section>
       </main>
     </div>
