@@ -9,7 +9,7 @@ export default function Body() {
       <div
         style={{
           fontFamily: "Arial, sans-serif",
-          backgroundColor: "#D7D5D0",
+          backgroundColor: "#FAF1E5",
           color: "#333",
           margin: "0",
           padding: "20px 0px",

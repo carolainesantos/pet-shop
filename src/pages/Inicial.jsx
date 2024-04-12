@@ -4,21 +4,31 @@ export default function Inicial() {
   return (
     <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
       <header style={{ textAlign: "center", marginBottom: "40px" }}>
-        <h1 style={{ margin: "0" }}>Pet Amigo</h1>
+        <h1
+          style={{
+            margin: "0",
+            fontFamily: "Gill Sans",
+            color: "#C9940B",
+            fontWeight: 700,
+          }}
+        >
+          Pet Amigo
+        </h1>
         <p
           style={{
+            color: "#9E6106",
             fontSize: "18px",
             fontFamily: "Roboto",
           }}
         >
-          Pet Amigo: onde o amor pelos animais é a nossa maior inspiração 🐾
+          Onde o amor pelos animais é a nossa maior inspiração 🐾
         </p>
         <br />
         <p
           style={{
             fontSize: "22px",
             fontFamily: "Roboto",
-            color: "purple",
+            color: "#525252",
           }}
         >
           Bem-vindo ao Pet Amigo! Acreditamos que cada animal de estimação é
@@ -32,7 +42,7 @@ export default function Inicial() {
           style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
         >
           <br />
-          <h2>Sugestão </h2>
+          <h2>Nossos Amigos</h2>
           <Card style={{ width: "18rem", margin: "0 auto" }}>
             <Card.Img
               variant="top"
@@ -40,12 +50,12 @@ export default function Inicial() {
               alt="Capa da música"
             />
             <Card.Body>
-              <Card.Title>The Man</Card.Title>
+              <Card.Title>Bob</Card.Title>
               <Card.Text>
-                <p>Taylor Swift</p>
-                <p>Album: Lover</p>
+                <p>Pastor Alemão</p>
+                <p>8 anos</p>
               </Card.Text>
-              <Button variant="dark">Reproduzir</Button>
+              <Button variant="warning">Conhecer</Button>
             </Card.Body>
           </Card>
         </section>

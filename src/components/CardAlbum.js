@@ -14,12 +14,11 @@ export default function CardAlbuns({ key, nome, responsavel, raça, imagem }) {
       <Card.Body>
         <Card.Title>{nome}</Card.Title>
         <Card.Text>
-          <p>{responsavel}</p>
-          <p>Nome: {nome}</p>
-          {raça}
+          <p>Responsavel: {responsavel}</p>
+          <p>Raça: {raça}</p>
         </Card.Text>
         <div style={{ textAlign: "center" }}>
-          <Button variant="dark">Vizualizar</Button>
+          <Button variant="warning">Conhecer</Button>
         </div>
       </Card.Body>
     </Card>

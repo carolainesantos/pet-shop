@@ -6,7 +6,7 @@ export default function Header() {
     <Navbar
       expand={"lg"}
       style={{
-        backgroundColor: "#A792D4",
+        backgroundColor: "#FAF1E5",
       }}
     >
       <Navbar.Brand
@@ -38,9 +38,11 @@ export default function Header() {
             as={Link}
             to="/sobre"
             style={{
+              fontFamily: "Roboto",
               fontSize: "21px",
               textDecoration: "none",
-              color: "#fff",
+              color: "#C9940B",
+              fontWeight: 900,
             }}
           >
             Sobre
@@ -52,7 +54,9 @@ export default function Header() {
               fontSize: "21px",
               textDecoration: "none",
               marginLeft: "20px",
-              color: "#fff",
+              fontFamily: "Roboto",
+              color: "#C9940B",
+              fontWeight: 900,
             }}
           >
             Contato
@@ -64,7 +68,9 @@ export default function Header() {
               fontSize: "21px",
               textDecoration: "none",
               marginLeft: "20px",
-              color: "#fff",
+              fontFamily: "Roboto",
+              color: "#C9940B",
+              fontWeight: 900,
             }}
           >
             Produtos

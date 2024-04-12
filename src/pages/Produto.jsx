@@ -42,7 +42,6 @@ export default function Album() {
             artista={album.artista}
             album={album.album}
             imagem={album.imagem}
-            descricao={album.descricao}
           />
         ))}
       </div>
