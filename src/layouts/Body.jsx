@@ -1,50 +1,23 @@
-import CardAlbuns from "../components/CardAlbuns";
-import jsonData from "../mocks/info.json";
-import React, { useEffect, useState } from "react";
+import { Outlet } from "react-router-dom";
+import Footer from "./Footer";
+import Header from "./Header";
 
-export default function Album() {
-  const [albuns, setAlbuns] = useState([]);
-
-  useEffect(() => {
-    setAlbuns(jsonData);
-  }, []);
-
+export default function Body() {
   return (
-    <div
-      style={{
-        maxWidth: "800px",
-        margin: "0 auto",
-        padding: "20px",
-      }}
-    >
-      <div>
-        <h1>Titulo aqui</h1>
-        <p
-          style={{
-            fontSize: "20px",
-            fontFamily: "Roboto",
-          }}
-        >
-          Os melhores produtos voçê encontra aqui ✨
-        </p>
-      </div>
+    <>
+      <Header />
       <div
         style={{
-          display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "space-between",
+          fontFamily: "Arial, sans-serif",
+          backgroundColor: "#D7D5D0",
+          color: "#333",
+          margin: "0",
+          padding: "20px 0px",
         }}
       >
-        {albuns.map((album) => (
-          <CardAlbuns
-            key={album.id}
-            nome={album.nome}
-            responsavel={album.responsavel}
-            raça={album.raça}
-            imagem={album.imagem}
-          />
-        ))}
+        <Outlet />
       </div>
-    </div>
+      <Footer />
+    </>
   );
 }

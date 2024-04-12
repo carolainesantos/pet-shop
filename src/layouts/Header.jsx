@@ -1,62 +1,76 @@
-import { Card, Button } from "react-bootstrap";
+import { Container, Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
-export default function Inicial() {
+export default function Header() {
   return (
-    <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
-      <header style={{ textAlign: "center", marginBottom: "40px" }}>
-        <h1 style={{ margin: "0" }}>Melodify</h1>
-        <p
+    <Navbar
+      expand={"lg"}
+      style={{
+        backgroundColor: "#A792D4",
+      }}
+    >
+      <Navbar.Brand
+        as={Link}
+        to="/"
+        style={{
+          padding: "0px 50px",
+          fontSize: "24px",
+        }}
+      >
+        Pet Amigo
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="minhanav" />
+      <Navbar.Collapse
+        id="minhanav"
+        style={{
+          textAlign: "center",
+          alignSelf: "stretch",
+          color: "#130F4D",
+          fontSize: "30px",
+        }}
+      >
+        <Container
           style={{
-            fontSize: "18px",
-            fontFamily: "Roboto",
+            marginRight: "200px",
           }}
         >
-          Sejam Bem vindos a Paxos Pet Shop! 🐾
-        </p>
-        <br />
-        <p
-          style={{
-            fontSize: "22px",
-            fontFamily: "Roboto",
-            color: "purple",
-          }}
-        >
-          "Bem-vindo à Paxos Vet Clinic! Imagine um lugar onde o amor pelos
-          animais se entrelaça com a mais avançada expertise médica. Na Paxos
-          Vet Clinic, nossa história é escrita todos os dias pelos sorrisos que
-          trazemos aos nossos pacientes de quatro patas e suas famílias humanas.
-          Desde cuidados preventivos até tratamentos especializados, estamos
-          aqui para oferecer o mais alto padrão de atendimento veterinário. Com
-          uma equipe dedicada e apaixonada, cada animal que passa por nossas
-          portas recebe o carinho e a atenção que merece. Junte-se a nós nesta
-          jornada onde o bem-estar animal é a nossa prioridade número um. Na
-          Paxos Vet Clinic, cada miau, latido e rabinho abanando conta uma
-          história de amor e cuidado. Venha fazer parte da nossa família!"
-        </p>
-      </header>
-      <main style={{ textAlign: "center" }}>
-        <section
-          style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
-        >
-          <br />
-          <h2>teste </h2>
-          <Card style={{ width: "18rem", margin: "0 auto" }}>
-            <Card.Img
-              variant="top"
-              src="imagem aqui"
-              alt="Descrição da imagem"
-            />
-            <Card.Body>
-              <Card.Title>Aqui temos um card</Card.Title>
-              <Card.Text>
-                <p>Paragrafo</p>
-                <p>Paragrafo</p>
-              </Card.Text>
-              <Button variant="dark">botao</Button>
-            </Card.Body>
-          </Card>
-        </section>
-      </main>
-    </div>
+          <Navbar.Text
+            as={Link}
+            to="/sobre"
+            style={{
+              fontSize: "21px",
+              textDecoration: "none",
+              color: "#fff",
+            }}
+          >
+            Sobre
+          </Navbar.Text>
+          <Navbar.Text
+            as={Link}
+            to="/contato"
+            style={{
+              fontSize: "21px",
+              textDecoration: "none",
+              marginLeft: "20px",
+              color: "#fff",
+            }}
+          >
+            Contato
+          </Navbar.Text>
+          <Navbar.Text
+            as={Link}
+            to="/produto"
+            style={{
+              fontSize: "21px",
+              textDecoration: "none",
+              marginLeft: "20px",
+              color: "#fff",
+            }}
+          >
+            Produtos
+          </Navbar.Text>
+        </Container>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }

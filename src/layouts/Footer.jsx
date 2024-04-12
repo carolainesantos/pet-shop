@@ -1,40 +1,52 @@
-export default function Contato() {
-  return (
-    <>
-      <section
-        style={{
-          padding: "20px",
-          margin: "20px auto",
-          maxWidth: "550px",
-          backgroundColor: "#fff",
-          borderRadius: "8px",
-          boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
-        }}
-      >
-        <h1>Venha nos conhecer de pertinho! </h1>
-        <p>
-          Siga-nos nas redes sociais: [Inserir links para redes sociais, se
-          aplicável] Horário de funcionamento: Segunda a sexta: [Inserirhorário
-          de funcionamento] Sábado: [Inserir horário de funcionamento] Domingo:
-          Fechado
-        </p>
-      </section>
+import { Col, Container, Row } from "react-bootstrap";
 
-      <section
-        style={{
-          padding: "20px",
-          margin: "20px auto",
-          maxWidth: "550px",
-          backgroundColor: "#fff",
-          borderRadius: "8px",
-          boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
-        }}
-      >
-        <h1>Fale com a gente</h1>
-        <p>Paxos Vet Clinic Endereço: [Inserir endereço físico aqui] </p>
-        <p> Telefone:[Inserir número de telefone aqui] </p>
-        <p> E-mail: [Inserir endereço de e-mail aqui] </p>
-      </section>
-    </>
+export default function Footer() {
+  return (
+    <Container>
+      <Row>
+        <Col
+          lg={6}
+          style={{
+            padding: "20px 0",
+          }}
+        >
+          <div>
+            <h4>Venha nos visitar!</h4>
+            <p>Av São Pedro, 1331</p>
+          </div>
+        </Col>
+        <Col
+          lg={6}
+          style={{
+            padding: "20px 0",
+          }}
+        >
+          <div>
+            <h4>Redes sociais</h4>
+            <a
+              // href="//facebook.com"
+              target="_blank"
+              style={{
+                textDecoration: "none",
+                color: "#AD02FD",
+              }}
+            >
+              Facebook
+            </a>
+            <br />
+            <a
+              // href="//instagram.com"
+              target="_blank"
+              style={{
+                textDecoration: "none",
+                color: "#AD02FD",
+              }}
+            >
+              Instagram
+            </a>
+          </div>
+        </Col>
+      </Row>
+    </Container>
   );
 }
