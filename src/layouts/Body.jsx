@@ -1,5 +1,5 @@
 import CardAlbuns from "../components/CardAlbuns";
-import jsonData from "../mocks/teste.json";
+import jsonData from "../mocks/info.json";
 import React, { useEffect, useState } from "react";
 
 export default function Album() {
@@ -18,14 +18,14 @@ export default function Album() {
       }}
     >
       <div>
-        <h1>Albuns Disponiveis</h1>
+        <h1>Titulo aqui</h1>
         <p
           style={{
             fontSize: "20px",
             fontFamily: "Roboto",
           }}
         >
-          Os melhores albuns você encontra aqui ✨🎧
+          Os melhores produtos voçê encontra aqui ✨
         </p>
       </div>
       <div

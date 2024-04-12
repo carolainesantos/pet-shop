@@ -21,17 +21,17 @@ export default function Inicial() {
             color: "purple",
           }}
         >
-          "Bem-vindo à Paxos Vet Clinic!
-
-Imagine um lugar onde o amor pelos animais se entrelaça com a mais avançada expertise médica. Na Paxos Vet Clinic, nossa história é 
-escrita todos os dias pelos sorrisos que trazemos aos nossos pacientes de quatro patas e suas famílias humanas.
-
-Desde cuidados preventivos até tratamentos especializados, estamos aqui para oferecer o mais alto padrão de atendimento veterinário. 
-Com uma equipe dedicada e apaixonada, cada animal que passa por nossas portas recebe o carinho e a atenção que merece.
-
-Junte-se a nós nesta jornada onde o bem-estar animal é a nossa prioridade número um. Na Paxos Vet Clinic, cada miau, latido e rabinho abanando conta uma 
-
-história de amor e cuidado. Venha fazer parte da nossa família!"
+          "Bem-vindo à Paxos Vet Clinic! Imagine um lugar onde o amor pelos
+          animais se entrelaça com a mais avançada expertise médica. Na Paxos
+          Vet Clinic, nossa história é escrita todos os dias pelos sorrisos que
+          trazemos aos nossos pacientes de quatro patas e suas famílias humanas.
+          Desde cuidados preventivos até tratamentos especializados, estamos
+          aqui para oferecer o mais alto padrão de atendimento veterinário. Com
+          uma equipe dedicada e apaixonada, cada animal que passa por nossas
+          portas recebe o carinho e a atenção que merece. Junte-se a nós nesta
+          jornada onde o bem-estar animal é a nossa prioridade número um. Na
+          Paxos Vet Clinic, cada miau, latido e rabinho abanando conta uma
+          história de amor e cuidado. Venha fazer parte da nossa família!"
         </p>
       </header>
       <main style={{ textAlign: "center" }}>
