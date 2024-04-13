@@ -18,7 +18,7 @@ export default function Header() {
           color: "#739766",
         }}
       >
-        <img src="./img/logo10.png" alt="Logo" />
+        <img src="./img/logo.png" alt="Logo" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="minhanav" />
       <Navbar.Collapse

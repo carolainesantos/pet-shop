@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "nome": "Bob",
-    "responsavel": "Lucia",
-    "raça": "Pastor Alemão",
-    "imagem": "pastor-alemao.png"
+    "nome": "Shampoo",
+    "descricao": "Shampoo marca PROCÃO, indicado para filhotes.",
+    "preco": "R$ 59,90",
+    "imagem": "sampoo-filhote.png"
   },
   {
     "id": 2,
