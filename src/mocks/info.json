@@ -2,35 +2,35 @@
   {
     "id": 1,
     "nome": "Shampoo",
-    "descricao": "",
+    "descricao": "O Shampoo para cães oferece uma limpeza suave e eficaz, especialmente para atender às necessidades delicadas da pele e do pelo dos pets.",
     "preco": "R$ 59,90",
     "imagem": "../img/shampoo7.jpg"
   },
   {
     "id": 2,
     "nome": "Shampoo",
-    "descricao": "O Shampoo para Gatos oferece uma experiência de limpeza suave e eficaz, formulada especialmente para atender às necessidades delicadas da pele e do pelo dos felinos.",
+    "descricao": "O Shampoo para gatos oferece uma limpeza suave e eficaz, especialmente para atender às necessidades delicadas da pele e do pelo dos felinos.",
     "preco": "R$ 59,90",
     "imagem": "../img/shampoo2.jpg"
   },
   {
     "id": 3,
     "nome": "Shampoo",
-    "descricao": "O Shampoo da marca AUmiGos é uma escolha para os momentos de banho do seu filhote canino.Este shampoo proporciona uma limpeza suave e eficaz, sem irritar a pele sensível do filhote.",
+    "descricao": "O Shampoo da AUmiGos é uma escolha para os momentos de banho do seu filhote canino. Proporciona uma limpeza suave e eficaz, sem irritar a pele sensível do filhote.",
     "preco": "R$ 59,90",
     "imagem": "../img/shampoo8.jpg"
   },
   {
     "id": 4,
     "nome": "Shampoo",
-    "descricao": "O Shampoo da marca AUmiGos é uma escolha para os momentos de banho do seu filhote felino.Este shampoo proporciona uma limpeza suave e eficaz, sem irritar a pele sensível do filhote.",
+    "descricao": "O Shampoo da AUmiGos é uma escolha para os momentos de banho do seu filhote felino. Proporciona uma limpeza suave e eficaz, sem irritar a pele sensível do filhote.",
     "preco": "R$ 59,90",
     "imagem": "../img/shampoo-gato.jpg"
   },
   {
     "id": 5,
     "nome": "Shampoo",
-    "descricao": "O Shampoo DrDog é a escolha ideal para cuidar da pelagem do seu amigo de quatro patas, com fragrâncias suaves e duradouras. Este shampoo deixa seu cão com uma pelagem macia, brilhante e com um aroma refrescante.",
+    "descricao": "O Shampoo Granado vem com fragrâncias suaves e duradouras. Este shampoo deixa seu cão com uma pelagem macia, brilhante.",
     "preco": "R$ 59,90",
     "imagem": "../img/shampoo3.jpg"
   },
@@ -40,5 +40,19 @@
     "descricao": "Shampoo Neutro Granado, Indicado para cães e gatos para todas as raças e idades.Produz brilho e maciez ao pelo.",
     "preco": "R$ 59,90",
     "imagem": "../img/shampoo.jpg"
+  },
+  {
+    "id": 7,
+    "nome": "Hidratante",
+    "descricao": "O Hidratante Beeps é a solução perfeita para nutrir e proteger a pele do seu pet com carinho e cuidado. Ajuda a acalmar irritações, mantendo a pele protegida.",
+    "preco": "R$ 59,90",
+    "imagem": "../img/hidratante2.jpg"
+  },
+  {
+    "id": 8,
+    "nome": "Shampoo",
+    "descricao": "Shampoo Neutro Granado, Indicado para cães e gatos para todas as raças e idades.Produz brilho e maciez ao pelo.",
+    "preco": "R$ 59,90",
+    "imagem": "../img/hidratante3.jpg"
   }
 ]

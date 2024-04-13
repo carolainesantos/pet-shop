@@ -14,7 +14,11 @@ export default function CardAlbuns({ key, nome, descricao, preco, imagem }) {
       <Card.Body>
         <Card.Title>{nome}</Card.Title>
         <Card.Text>
-          <p>Descrição: {descricao}</p>
+          <p>
+            {" "}
+            <br />
+            {descricao}
+          </p>
           <p>Preço: {preco}</p>
         </Card.Text>
         <div style={{ textAlign: "center" }}>
