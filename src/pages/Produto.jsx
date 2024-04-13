@@ -18,11 +18,22 @@ export default function Album() {
       }}
     >
       <div>
-        <h1>Nossos Produtos</h1>
+        <h2
+          style={{
+            textAlign: "center",
+            fontFamily: "Segoe UI",
+            color: "#9C0F48",
+            fontWeight: "600",
+          }}
+        >
+          Nossos Produtos
+        </h2>
         <p
           style={{
+            textAlign: "center",
             fontSize: "20px",
-            fontFamily: "Roboto",
+            fontFamily: "Arial",
+            color: "#843B62",
           }}
         >
           Explore nossos produtos e faça cada momento juntos especiais 🐾

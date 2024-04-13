@@ -2,23 +2,34 @@ import { Col, Container, Row } from "react-bootstrap";
 
 export default function Footer() {
   return (
-    <Container>
+    <Container
+      style={{
+        margin: "0",
+        backgroundColor: "#FAF1E5",
+      }}
+    >
       <Row>
         <Col
           lg={6}
           style={{
-            padding: "20px 0",
+            margin: "0 90px",
+            padding: "20px 0px",
           }}
         >
           <div>
             <h4>Venha nos visitar!</h4>
-            <p>Av São Pedro, 1331</p>
+            <p>
+              Av São Pedro, 1331
+              <br />
+              São Paulo
+            </p>
           </div>
         </Col>
         <Col
-          lg={6}
+          lg={4}
           style={{
-            padding: "20px 0",
+            margin: "0px",
+            padding: "20px ",
           }}
         >
           <div>
