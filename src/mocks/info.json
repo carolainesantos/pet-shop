@@ -44,15 +44,43 @@
   {
     "id": 7,
     "nome": "Hidratante",
-    "descricao": "O Hidratante Beeps é a solução perfeita para nutrir e proteger a pele do seu pet com carinho e cuidado. Ajuda a acalmar irritações, mantendo a pele protegida.",
+    "descricao": "O Hidratante Beeps é a solução perfeita para nutrir e proteger a pele do seu pet. Ajuda a acalmar irritações, mantendo a pele protegida.",
     "preco": "R$ 59,90",
     "imagem": "../img/hidratante2.jpg"
   },
   {
     "id": 8,
-    "nome": "Shampoo",
-    "descricao": "Shampoo Neutro Granado, Indicado para cães e gatos para todas as raças e idades.Produz brilho e maciez ao pelo.",
+    "nome": "Hidratante",
+    "descricao": "O Hidratante Beeps é a solução perfeita para nutrir e proteger a pele do seu pet. Ajuda a acalmar irritações, mantendo a pele protegida.",
     "preco": "R$ 59,90",
     "imagem": "../img/hidratante3.jpg"
+  },
+  {
+    "id": 9,
+    "nome": "Toalha",
+    "descricao": "Com a toalha DogCare você tem praticidade, ela seca seu amigo de quatro patas em um piscar de olhos, garantindo conforto em todas as ocasiões",
+    "preco": "R$ 59,90",
+    "imagem": "../img/toalha.jpg"
+  },
+  {
+    "id": 10,
+    "nome": "Toalha",
+    "descricao": "Com a toalha DogCare você tem praticidade, ela seca seu amigo de quatro patas em um piscar de olhos, garantindo conforto em todas as ocasiões",
+    "preco": "R$ 59,90",
+    "imagem": "../img/toalha2.jpg"
+  },
+  {
+    "id": 11,
+    "nome": "Brinquedo PetDog",
+    "descricao": "Diversão garantida para o seu melhor amigo de quatro patas. É a solução perfeita para satisfazer os instintos de mastigação do seu amigo canino.",
+    "preco": "R$ 59,90",
+    "imagem": "../img/brinquedo2.jpg"
+  },
+  {
+    "id": 12,
+    "nome": "Brinquedo PetDog",
+    "descricao": "Diversão garantida para o seu melhor amigo de quatro patas. Proporciona horas de entretenimento e exercício para cães e gatos de todas as idades.",
+    "preco": "R$ 59,90",
+    "imagem": "../img/brinquedo.jpg"
   }
 ]
