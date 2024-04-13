@@ -18,14 +18,14 @@ export default function Album() {
       }}
     >
       <div>
-        <h1>Albuns Disponiveis</h1>
+        <h1>Nossos Produtos</h1>
         <p
           style={{
             fontSize: "20px",
             fontFamily: "Roboto",
           }}
         >
-          Os melhores albuns você encontra aqui ✨🎧
+          Explore nossos produtos e faça cada momento juntos especiais 🐾
         </p>
       </div>
       <div

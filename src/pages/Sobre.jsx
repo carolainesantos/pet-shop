@@ -13,6 +13,7 @@ export default function Sobre() {
       >
         <h2>Sobre Nós 💚</h2>
         <p>
+          <br />
           No Pet Amigo, somos apaixonados por proporcionar uma vida feliz e
           saudável para os nossos amigos de quatro patas. Fundado com o amor
           pelos animais no coração, nosso pet shop se esforça para oferecer uma
@@ -34,7 +35,7 @@ export default function Sobre() {
         </p>
       </section>
 
-      <section
+      {/* <section
         style={{
           padding: "20px",
           margin: "20px auto",
@@ -43,7 +44,7 @@ export default function Sobre() {
           borderRadius: "8px",
           boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
         }}
-      ></section>
+      ></section> */}
     </>
   );
 }
