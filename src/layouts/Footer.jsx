@@ -4,7 +4,6 @@ export default function Footer() {
   return (
     <Container
       style={{
-        margin: "0",
         backgroundColor: "#FAF1E5",
       }}
     >

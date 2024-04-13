@@ -13,11 +13,18 @@ export default function Body() {
           color: "#333",
           margin: "0",
           padding: "20px 0px",
+          minHeight: "64.8vh",
         }}
       >
         <Outlet />
       </div>
-      <Footer />
+      <div
+        style={{
+          backgroundColor: "#FAF1E5",
+        }}
+      >
+        <Footer />
+      </div>
     </>
   );
 }

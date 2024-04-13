@@ -35,14 +35,6 @@ export default function Sobre() {
         </p>
       </div>
 
-      <div
-        style={{
-          textAlign: "center",
-        }}
-      >
-        <h4>Conheça Nossos Amigos de Quatro Patas!</h4>
-        {/* <img src="../img/pastor-alemao.jpg" alt="" /> */}
-      </div>
       {/* <section
         style={{
           padding: "20px",
