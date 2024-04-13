@@ -2,7 +2,13 @@ import { Card, Button } from "react-bootstrap";
 
 export default function CardAlbuns({ key, nome, descricao, preco, imagem }) {
   return (
-    <Card style={{ width: "22rem", margin: "10px" }}>
+    <Card
+      style={{
+        width: "22rem",
+        margin: "10px",
+        boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+      }}
+    >
       <Card.Img
         variant="top"
         src={imagem}
