@@ -1,14 +1,14 @@
 export default function Sobre() {
   return (
     <>
-      <section
+      <div
         style={{
           padding: "20px",
           margin: "20px auto",
+          textAlign: "left",
           maxWidth: "800px",
-          backgroundColor: "#fff",
-          borderRadius: "8px",
-          boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+          // borderRadius: "8px",
+          // boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
         }}
       >
         <h2>Sobre Nós 💚</h2>
@@ -33,8 +33,16 @@ export default function Sobre() {
           brinquedos divertidos e acessórios elegantes, para garantir que seu
           companheiro peludo receba apenas o melhor.
         </p>
-      </section>
+      </div>
 
+      <div
+        style={{
+          textAlign: "center",
+        }}
+      >
+        <h4>Conheça Nossos Amigos de Quatro Patas!</h4>
+        {/* <img src="../img/pastor-alemao.jpg" alt="" /> */}
+      </div>
       {/* <section
         style={{
           padding: "20px",

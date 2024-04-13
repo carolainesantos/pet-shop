@@ -2,7 +2,7 @@ import CardAlbuns from "../components/CardAlbuns";
 import jsonData from "../mocks/info.json";
 import React, { useEffect, useState } from "react";
 
-export default function Album() {
+export default function Produto() {
   const [albuns, setAlbuns] = useState([]);
 
   useEffect(() => {

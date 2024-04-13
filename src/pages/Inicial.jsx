@@ -43,12 +43,8 @@ export default function Inicial() {
         >
           <br />
           <h2>Nossos Amigos</h2>
-          <Card style={{ width: "18rem", margin: "0 auto" }}>
-            <Card.Img
-              variant="top"
-              src="taylorSwift.jpeg"
-              alt="Capa da música"
-            />
+          <Card style={{ width: "18rem", margin: "90px auto" }}>
+            <Card.Img variant="top" src="../img/pastor-alemao.jpg" alt="Pet" />
             <Card.Body>
               <Card.Title>Bob</Card.Title>
               <Card.Text>
