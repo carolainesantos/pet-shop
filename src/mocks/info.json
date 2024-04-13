@@ -4,7 +4,7 @@
     "nome": "Shampoo",
     "descricao": "Shampoo marca PROCÃO, indicado para filhotes.",
     "preco": "R$ 59,90",
-    "imagem": "sampoo-filhote.png"
+    "imagem": "sampoo.jpg"
   },
   {
     "id": 2,
@@ -30,8 +30,8 @@
   {
     "id": 5,
     "nome": "Pet",
-    "responsavel": "",
-    "raça": "",
+    "descricao": "",
+    "preco": "",
     "imagem": ""
   },
   {

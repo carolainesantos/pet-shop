@@ -1,8 +1,8 @@
-import CardAlbuns from "../components/CardAlbum";
+import CardAlbuns from "../components/CardAlbuns";
 import jsonData from "../mocks/info.json";
 import React, { useEffect, useState } from "react";
 
-export default function Album() {
+export default function Produto() {
   const [albuns, setAlbuns] = useState([]);
 
   useEffect(() => {
@@ -50,8 +50,8 @@ export default function Album() {
           <CardAlbuns
             key={album.id}
             nome={album.nome}
-            artista={album.artista}
-            album={album.album}
+            descricao={album.descricao}
+            preco={album.preco}
             imagem={album.imagem}
           />
         ))}
