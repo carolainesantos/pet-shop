@@ -32,7 +32,7 @@ export default function Header() {
       >
         <Container
           style={{
-            marginRight: "200px",
+            marginRight: "400px",
           }}
         >
           <Navbar.Text
