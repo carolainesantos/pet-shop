@@ -39,7 +39,6 @@ export default function Footer() {
               target="_blank"
               style={{
                 textDecoration: "none",
-                color: "#AD02FD",
               }}
             >
               Instagram

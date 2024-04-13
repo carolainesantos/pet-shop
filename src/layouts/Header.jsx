@@ -15,9 +15,10 @@ export default function Header() {
         style={{
           padding: "0px 50px",
           fontSize: "24px",
+          color: "#739766",
         }}
       >
-        Pet Amigo
+        <img src="./img/logo10.png" alt="Logo" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="minhanav" />
       <Navbar.Collapse

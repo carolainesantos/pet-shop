@@ -26,8 +26,8 @@ export default function Inicial() {
         <br />
         <p
           style={{
-            fontSize: "22px",
-            fontFamily: "Roboto",
+            fontSize: "21px",
+            fontFamily: "Roboto Mono",
             color: "#525252",
           }}
         >
