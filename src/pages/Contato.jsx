@@ -23,7 +23,11 @@ export default function Contato() {
         }}
       >
         <h1>Fale com a gente 😉</h1>
-        <p>Entre em contato conosco</p>
+        <p>
+          Entre em contato conosco <br />
+          08:00 a.m ás 17:00 p.m
+        </p>
+
         <p>📞(55) 47 99999-9999</p>
         <p>✉️ petamigo@gmail.com</p>
       </section>
