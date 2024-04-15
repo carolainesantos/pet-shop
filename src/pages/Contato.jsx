@@ -17,7 +17,7 @@ export default function Contato() {
           padding: "20px",
           margin: "20px auto",
           maxWidth: "550px",
-          backgroundColor: "#fff",
+          backgroundColor: "#ff0",
           borderRadius: "8px",
           boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
         }}
