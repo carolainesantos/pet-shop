@@ -36,7 +36,7 @@ export default function Footer() {
             <a
               style={{
                 textDecoration: "none",
-                color: "#90D26D",
+                color: "#F9B572",
               }}
             >
               Facebook
@@ -45,7 +45,7 @@ export default function Footer() {
             <a
               style={{
                 textDecoration: "none",
-                color: "#90D26D",
+                color: "#F9B572",
               }}
             >
               Instagram
