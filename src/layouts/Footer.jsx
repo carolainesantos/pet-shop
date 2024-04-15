@@ -45,6 +45,7 @@ export default function Footer() {
             <a
               style={{
                 textDecoration: "none",
+                color: "#90D26D",
               }}
             >
               Instagram
