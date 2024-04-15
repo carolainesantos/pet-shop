@@ -34,19 +34,15 @@ export default function Footer() {
           <div>
             <h4>Redes sociais</h4>
             <a
-              // href="//facebook.com"
-              target="_blank"
               style={{
                 textDecoration: "none",
-                color: "#AD02FD",
+                color: "#90D26D",
               }}
             >
               Facebook
             </a>
             <br />
             <a
-              // href="//instagram.com"
-              target="_blank"
               style={{
                 textDecoration: "none",
               }}
