@@ -16,8 +16,18 @@ export default function Footer() {
           }}
         >
           <div>
-            <h4>Venha nos visitar!</h4>
-            <p>
+            <h4
+              style={{
+                color: "#A79277",
+              }}
+            >
+              Venha nos visitar!
+            </h4>
+            <p
+              style={{
+                color: "#F9B572",
+              }}
+            >
               Av São Pedro, 1331
               <br />
               São Paulo
@@ -32,7 +42,13 @@ export default function Footer() {
           }}
         >
           <div>
-            <h4>Redes sociais</h4>
+            <h4
+              style={{
+                color: "#A79277",
+              }}
+            >
+              Redes sociais
+            </h4>
             <a
               style={{
                 textDecoration: "none",
