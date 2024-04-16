@@ -7,8 +7,8 @@ export default function Inicial() {
         <h1
           style={{
             margin: "0",
-            fontFamily: "Gill Sans", // C9940B
-            color: "#EDB31C",
+            fontFamily: "Gill Sans",
+            color: "#EDB31C", // C9940B
             fontWeight: 700,
           }}
         >
@@ -45,7 +45,6 @@ export default function Inicial() {
           <h2
             style={{
               color: "#606C5D",
-              // 606C5D cinza
             }}
           >
             Nossos Amigos
