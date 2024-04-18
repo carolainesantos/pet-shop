@@ -46,8 +46,8 @@ function CarrosselInicial() {
         className={"car-item"}
       >
         <Carousel.Caption>
-          <h3>Este é Bob</h3>
-          <p>Golden Retriever</p>
+          <h3>Esta é Luna</h3>
+          <p></p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
