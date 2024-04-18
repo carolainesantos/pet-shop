@@ -14,14 +14,14 @@ export default function Produto() {
       style={{
         maxWidth: "800px",
         margin: "0 auto",
-        padding: "20px",
+        padding: "0px",
       }}
     >
       <div>
         <h2
           style={{
             textAlign: "center",
-            fontFamily: "Segoe UI",
+            fontFamily: "cursive",
             color: "#C6A969",
             fontWeight: "600",
           }}
@@ -32,7 +32,7 @@ export default function Produto() {
           style={{
             textAlign: "center",
             fontSize: "20px",
-            fontFamily: "Arial",
+            fontFamily: "monospace",
             color: "#A79277",
           }}
         >
