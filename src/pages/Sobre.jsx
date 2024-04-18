@@ -34,17 +34,6 @@ export default function Sobre() {
           companheiro peludo receba apenas o melhor.
         </p>
       </div>
-
-      {/* <section
-        style={{
-          padding: "20px",
-          margin: "20px auto",
-          maxWidth: "800px",
-          backgroundColor: "#fff",
-          borderRadius: "8px",
-          boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
-        }}
-      ></section> */}
     </>
   );
 }

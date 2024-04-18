@@ -8,7 +8,7 @@ export default function Inicial() {
           style={{
             margin: "0",
             fontFamily: "Gill Sans",
-            color: "#C9940B",
+            color: "#EDB31C", // C9940B
             fontWeight: 700,
           }}
         >
@@ -42,7 +42,13 @@ export default function Inicial() {
           style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
         >
           <br />
-          <h2>Nossos Amigos</h2>
+          <h2
+            style={{
+              color: "#606C5D",
+            }}
+          >
+            Nossos Amigos
+          </h2>
           <Card style={{ width: "18rem", margin: "90px auto" }}>
             <Card.Img variant="top" src="../img/pastor-alemao.jpg" alt="Pet" />
             <Card.Body>

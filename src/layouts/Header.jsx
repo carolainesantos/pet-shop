@@ -26,7 +26,6 @@ export default function Header() {
         style={{
           textAlign: "center",
           alignSelf: "stretch",
-          color: "#130F4D",
           fontSize: "30px",
         }}
       >

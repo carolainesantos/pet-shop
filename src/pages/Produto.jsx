@@ -22,7 +22,7 @@ export default function Produto() {
           style={{
             textAlign: "center",
             fontFamily: "Segoe UI",
-            color: "#9C0F48",
+            color: "#C6A969",
             fontWeight: "600",
           }}
         >
@@ -33,7 +33,7 @@ export default function Produto() {
             textAlign: "center",
             fontSize: "20px",
             fontFamily: "Arial",
-            color: "#843B62",
+            color: "#A79277",
           }}
         >
           Explore nossos produtos e faça cada momento juntos especiais 🐾
