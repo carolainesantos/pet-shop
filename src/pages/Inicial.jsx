@@ -1,4 +1,5 @@
 import { Card, Button } from "react-bootstrap";
+import CarrosselInicial from "../components/CarrousselInicial";
 
 export default function Inicial() {
   return (
@@ -49,7 +50,9 @@ export default function Inicial() {
           >
             Nossos Amigos
           </h2>
-          <Card style={{ width: "18rem", margin: "90px auto" }}>
+          <CarrosselInicial />
+
+          {/* <Card style={{ width: "18rem", margin: "90px auto" }}>
             <Card.Img variant="top" src="../img/pastor-alemao.jpg" alt="Pet" />
             <Card.Body>
               <Card.Title>Bob</Card.Title>
@@ -59,7 +62,7 @@ export default function Inicial() {
               </Card.Text>
               <Button variant="warning">Conhecer</Button>
             </Card.Body>
-          </Card>
+          </Card> */}
         </section>
       </main>
     </div>
