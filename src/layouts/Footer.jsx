@@ -18,14 +18,15 @@ export default function Footer() {
           <div>
             <h4
               style={{
-                color: "#A79277",
+                color: "#766146",
               }}
             >
               Venha nos visitar!
             </h4>
             <p
               style={{
-                color: "#F9B572",
+                color: "#EB9D51",
+                fontWeight: "bold"
               }}
             >
               Av São Pedro, 1331
@@ -44,7 +45,7 @@ export default function Footer() {
           <div>
             <h4
               style={{
-                color: "#A79277",
+                color: "#766146",
               }}
             >
               Redes sociais
@@ -52,7 +53,8 @@ export default function Footer() {
             <a
               style={{
                 textDecoration: "none",
-                color: "#F9B572",
+                fontWeight: "bold",
+                color: "#EB9D51"
               }}
             >
               Facebook
@@ -61,7 +63,8 @@ export default function Footer() {
             <a
               style={{
                 textDecoration: "none",
-                color: "#F9B572",
+                fontWeight: "bold",
+                color: "#EB9D51",
               }}
             >
               Instagram
