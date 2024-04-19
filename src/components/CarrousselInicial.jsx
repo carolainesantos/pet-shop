@@ -20,8 +20,13 @@ function CarrosselInicial() {
         className={"car-item"}
       >
         <Carousel.Caption>
-          <h3>Este é Bob</h3>
-          <p>Idade: 5 anos</p>
+          <h3 style={{
+            color: "#000",
+            fontWeight: "700px"
+          }}>Este é Bob</h3>
+          <p style={{
+            color: "#000"
+          }}>Idade: 5 anos</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -33,8 +38,13 @@ function CarrosselInicial() {
         className={"car-item"}
       >
         <Carousel.Caption>
-          <h3>Este é Bob</h3>
-          <p>Idade: 6 anos</p>
+          <h3 style={{
+            color: "#000",
+            fontWeight: "700px"
+          }}>Este é Bob</h3>
+          <p style={{
+            color: "#000"
+          }}>Idade: 6 anos</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -46,8 +56,13 @@ function CarrosselInicial() {
         className={"car-item"}
       >
         <Carousel.Caption>
-          <h3>Esta é Luna</h3>
-          <p>Idade: 8 anos</p>
+          <h3 style={{
+            fontWeight: "700px",
+            color: "#000"
+          }}>Esta é Luna</h3>
+          <p style={{
+            color: "#000"
+          }}>Idade: 8 anos</p>
         </Carousel.Caption>
       </Carousel.Item>
 
