@@ -74,8 +74,13 @@ function CarrosselInicial() {
         className={"car-item"}
       >
         <Carousel.Caption>
-          <h3>Esta é Cecilia</h3>
-          <p>Idade: 7 anos</p>
+          <h3 style={{
+            fontWeight: "700px",
+            color: "#000"
+          }}>Esta é Cecilia</h3>
+          <p style={{
+            color: "#000"
+          }}>Idade: 7 anos</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
