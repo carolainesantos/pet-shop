@@ -50,6 +50,19 @@ function CarrosselInicial() {
           <p>Idade: 8 anos</p>
         </Carousel.Caption>
       </Carousel.Item>
+
+      <Carousel.Item
+        style={{
+          backgroundImage:
+            "url('https://www.petz.com.br/blog//wp-content/uploads/2021/11/enxoval-para-gato-Copia.jpg?random=1')",
+        }}
+        className={"car-item"}
+      >
+        <Carousel.Caption>
+          <h3>Esta é Cecilia</h3>
+          <p>Idade: 7 anos</p>
+        </Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
   );
 }
