@@ -21,7 +21,7 @@ function CarrosselInicial() {
       >
         <Carousel.Caption>
           <h3>Este é Bob</h3>
-          <p>Pastor Alemão</p>
+          <p>Idade: 5 anos</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -34,7 +34,7 @@ function CarrosselInicial() {
       >
         <Carousel.Caption>
           <h3>Este é Bob</h3>
-          <p>Golden Retriever</p>
+          <p>Idade: 6 anos</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -47,7 +47,20 @@ function CarrosselInicial() {
       >
         <Carousel.Caption>
           <h3>Esta é Luna</h3>
-          <p></p>
+          <p>Idade: 8 anos</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item
+        style={{
+          backgroundImage:
+            "url('https://www.petz.com.br/blog//wp-content/uploads/2021/11/enxoval-para-gato-Copia.jpg?random=1')",
+        }}
+        className={"car-item"}
+      >
+        <Carousel.Caption>
+          <h3>Esta é Cecilia</h3>
+          <p>Idade: 7 anos</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
