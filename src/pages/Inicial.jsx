@@ -3,12 +3,13 @@ import CarrosselInicial from "../components/CarrousselInicial";
 
 export default function Inicial() {
   return (
-    <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
+    <div style={{ maxWidth: "800px", margin: "0 auto", padding: "0px" }}>
       <header style={{ textAlign: "center", marginBottom: "40px" }}>
         <h1
           style={{
-            margin: "0",
-            fontFamily: "Gill Sans",
+            margin: "0px",
+            marginTop: "0px",
+            fontFamily: "cursive",
             color: "#EDB31C", // C9940B
             fontWeight: 700,
           }}
@@ -18,8 +19,10 @@ export default function Inicial() {
         <p
           style={{
             color: "#9E6106",
-            fontSize: "18px",
-            fontFamily: "Roboto",
+            fontSize: "16px",
+            fontWeight: "bold",
+            fontFamily: "monospace",
+            marginBottom: "0px"
           }}
         >
           Onde o amor pelos animais é a nossa maior inspiração 🐾
@@ -27,9 +30,11 @@ export default function Inicial() {
         <br />
         <p
           style={{
-            fontSize: "21px",
-            fontFamily: "Roboto Mono",
+            fontSize: "18px",
+            fontFamily: "monospace",
+            textAlign: "center",
             color: "#525252",
+            marginTop: "0px"
           }}
         >
           Bem-vindo ao Pet Amigo! Acreditamos que cada animal de estimação é
