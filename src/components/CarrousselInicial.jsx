@@ -33,7 +33,7 @@ function CarrosselInicial() {
         className={"car-item"}
       >
         <Carousel.Caption>
-          <h3>Este é Bob</h3>
+          <h3>Este é Chade</h3>
           <p>Idade: 6 anos</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -54,7 +54,7 @@ function CarrosselInicial() {
       <Carousel.Item
         style={{
           backgroundImage:
-            "url('https://www.petz.com.br/blog//wp-content/uploads/2021/11/enxoval-para-gato-Copia.jpg?random=1')",
+            "url('https://inovaveterinaria.com.br/wp-content/uploads/2015/04/gato-sem-raca-INOVA-1024x683.jpg?random=1')",
         }}
         className={"car-item"}
       >
