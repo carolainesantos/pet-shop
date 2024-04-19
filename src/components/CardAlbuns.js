@@ -6,6 +6,7 @@ export default function CardAlbuns({ key, nome, descricao, preco, imagem }) {
       style={{
         width: "22rem",
         margin: "10px",
+        border: "1px solid #b1b1b1",
         boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
       }}
     >
@@ -18,17 +19,32 @@ export default function CardAlbuns({ key, nome, descricao, preco, imagem }) {
         }}
       />
       <Card.Body>
-        <Card.Title>{nome}</Card.Title>
+        <Card.Title style={{
+          fontFamily: "cursive",
+          fontWeight: "bold"
+        }}>{nome}</Card.Title>
         <Card.Text>
           <p>
             {" "}
             <br />
             {descricao}
           </p>
-          <p>Preço: {preco}</p>
+          <p style={{
+            fontFamily: "monospace",
+            fontWeight: "bold"
+          }}>Preço: {preco}</p>
         </Card.Text>
         <div style={{ textAlign: "center" }}>
-          <Button variant="warning">Comprar</Button>
+          <Button style={{
+            backgroundColor: "#C9940B",
+            border: "none",
+            borderRadius: "15px",
+            color: "#ffff",
+            fontWeight: "600",
+            fontFamily: "monospace",
+            fontSize: "17px",
+            width: "105px"
+          }}>Comprar</Button>
         </div>
       </Card.Body>
     </Card>
