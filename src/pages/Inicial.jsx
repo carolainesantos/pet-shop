@@ -22,7 +22,7 @@ export default function Inicial() {
             fontSize: "16px",
             fontWeight: "bold",
             fontFamily: "monospace",
-            marginBottom: "0px"
+            marginBottom: "0px",
           }}
         >
           Onde o amor pelos animais é a nossa maior inspiração 🐾
@@ -34,7 +34,7 @@ export default function Inicial() {
             fontFamily: "monospace",
             textAlign: "center",
             color: "#525252",
-            marginTop: "0px"
+            marginTop: "20px",
           }}
         >
           Bem-vindo ao Pet Amigo! Acreditamos que cada animal de estimação é
