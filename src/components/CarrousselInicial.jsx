@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Image } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import "./CarrousselInicial.css";
 
@@ -22,46 +21,20 @@ function CarrosselInicial() {
         <Carousel.Caption>
           <h3
             style={{
-              color: "#000",
-              fontWeight: "700px",
+              color: "#2E0020",
+              fontWeight: "bold",
+              fontFamily: "monospace",
             }}
           >
             Este é Bob
           </h3>
           <p
             style={{
-              color: "#000",
+              color: "#2E0020",
+              fontSize: "18px",
             }}
           >
             Idade: 5 anos
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item
-        style={{
-          backgroundImage:
-            "url('https://www.petz.com.br/blog/wp-content/uploads/2021/04/raca-de-cachorro-docil-2.jpg?random=1')",
-        }}
-        className={"car-item"}
-      >
-        <Carousel.Caption>
-          <h3>Este é Chade</h3>
-          <p>Idade: 6 anos</p>
-          <h3
-            style={{
-              color: "#000",
-              fontWeight: "700px",
-            }}
-          >
-            Este é Bob
-          </h3>
-          <p
-            style={{
-              color: "#000",
-            }}
-          >
-            Idade: 6 anos
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -76,15 +49,17 @@ function CarrosselInicial() {
         <Carousel.Caption>
           <h3
             style={{
-              fontWeight: "700px",
-              color: "#000",
+              color: "#2E0020",
+              fontWeight: "bold",
+              fontFamily: "monospace",
             }}
           >
             Esta é Luna
           </h3>
           <p
             style={{
-              color: "#000",
+              color: "#2E0020",
+              fontSize: "18px",
             }}
           >
             Idade: 8 anos
@@ -95,22 +70,52 @@ function CarrosselInicial() {
       <Carousel.Item
         style={{
           backgroundImage:
-            "url('https://inovaveterinaria.com.br/wp-content/uploads/2015/04/gato-sem-raca-INOVA-1024x683.jpg?random=1')",
+            "url('https://eccha.org/wp-content/webp-express/webp-images/uploads/2023/06/dog-1-1024x682.png.webp?random=1')",
         }}
         className={"car-item"}
       >
         <Carousel.Caption>
           <h3
             style={{
-              fontWeight: "700px",
-              color: "#000",
+              color: "#2E0020",
+              fontWeight: "bold",
+              fontFamily: "monospace",
+            }}
+          >
+            Este é Chade
+          </h3>
+          <p
+            style={{
+              color: "#2E0020",
+              fontSize: "18px",
+            }}
+          >
+            Idade: 6 anos
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item
+        style={{
+          backgroundImage:
+            "url('https://img.nsctotal.com.br/wp-content/uploads/2022/01/gato-siames-944x531.jpg?random=1')",
+        }}
+        className={"car-item"}
+      >
+        <Carousel.Caption>
+          <h3
+            style={{
+              color: "#2E0020",
+              fontWeight: "bold",
+              fontFamily: "monospace",
             }}
           >
             Esta é Cecilia
           </h3>
           <p
             style={{
-              color: "#000",
+              color: "#2E0020",
+              fontSize: "18px",
             }}
           >
             Idade: 7 anos

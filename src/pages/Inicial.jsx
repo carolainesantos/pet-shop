@@ -10,7 +10,7 @@ export default function Inicial() {
             margin: "0px",
             marginTop: "0px",
             fontFamily: "cursive",
-            color: "#EDB31C", // C9940B
+            color: "#EDB31C",
             fontWeight: 700,
           }}
         >
@@ -56,18 +56,6 @@ export default function Inicial() {
             Nossos Amigos
           </h2>
           <CarrosselInicial />
-
-          {/* <Card style={{ width: "18rem", margin: "90px auto" }}>
-            <Card.Img variant="top" src="../img/pastor-alemao.jpg" alt="Pet" />
-            <Card.Body>
-              <Card.Title>Bob</Card.Title>
-              <Card.Text>
-                <p>Pastor Alemão</p>
-                <p>8 anos</p>
-              </Card.Text>
-              <Button variant="warning">Conhecer</Button>
-            </Card.Body>
-          </Card> */}
         </section>
       </main>
     </div>
